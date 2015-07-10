@@ -1,0 +1,18 @@
+Name: STATS INEQUALITY
+Dialog-Specs: STATS_INEQUALITY.spd
+Command-Specs: STATS_INEQUALITY.xml
+Code-Files: STATS_INEQUALITY.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Various inequality measures for a variable distribution
+Description: This command computes up to seven inequality measures, in
+ cluding the Gini coefficient, for a variable.  Confidence intervals a
+ re available for Gini coefficients.  Split files are supported, makin
+ g group comparisons easy.
+Author: JKP, IBM SPSS
+Version: 1.0.6
+Product-Version: 18
+Date: 4/23/14
+Categories: statistics, Gini, distribution
+Plugins: R
+R-Packages: ineq,DescTools
+Translation-Catalogues: lang
