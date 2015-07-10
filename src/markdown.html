@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS INEQUALITY Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS INEQUALITY Extension Command</h1>
+
+<p>Compute various distribution inequality measures.</p>
+<div class="syntax">
+<p>STATS INEQUALITY VARIABLE=<em>variable</em><sup>&#42;</sup> THEILP=<em>variable</em>
+MEASURE=GINI<sup>&#42;&#42;</sup> THEIL ATKINSON KOLM COEFVAR COEFVAR2 ENTROPY
+ATKINSONPAR=<em>value</em></p>
+
+<p>/OPTIONS GINICITYPE=PERC BCA<sup>&#42;&#42;</sup> GINICILEVEL=<em>percentile</em></p>
+
+<p>/OUTPUT LORENZPLOT=YES or NO<sup>&#42;&#42;.</sup></p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS INEQUALITY /HELP.  prints this information and does nothing else.</p>
+
+<pre class="example"><code>STATS INEQUALITY VARIABLE=salary MEASURE=GINI ATKINSON
+    /OPTIONS GINICILEVEL=95
+    /OUTPUT LORENZPLOT=YES.
+</code></pre>
+
+<p>This command supports split files.</p>
+
+<p><strong>VARIABLE</strong> specifies the variable whose distribution is used.  Values
+should be nonnegative for most measures.  Missing values are always
+deleted.</p>
+
+<p><strong>MEASURE</strong> specifies one or more measures to compute.  The choices are</p>
+
+<ul>
+<li><strong>GINI</strong>: the Gini index and is the default.</li>
+<li><strong>THEIL</strong>: the Theil U statistic.  It requires the THEILP keyword</li>
+<li><strong>ATKINSON</strong>: the Atkinson index.</li>
+<li><strong>KOLM</strong>: the Kolm measure.</li>
+<li><strong>COEFVAR</strong>: the coefficient of variation.</li>
+<li><strong>COEFVAR2</strong>: the squared coefficient of variation.</li>
+<li><strong>ENTROPY</strong>: the entropy measure.</li>
+</ul>
+
+<p><strong>ATKINSONPAR</strong> is the parameter for the Atkinson index
+and defaults to .5.  The value must be between 0 and 1.
+Larger values increase the sensitivity of the index to changes
+at the lower end of the distribution while, similarly, smaller
+values make the index more sensitive to changes at the upper end.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>GINICILEVEL</strong> specifies a confidence interval as a percent.  If
+specified, the output includes lower and upper confidence intervals
+for the Gini index.</p>
+
+<p><strong>GINICITYPE</strong> specifies how to compute the interval.  BCA specifies
+bias-corrected bootstrap, and PERC specifies percentile boostrap.</p>
+
+<h2>OUTPUT</h2>
+
+<p><strong>LORENZPLOT</strong> specifies whether or not to plot the Lorenz curve for
+the distribution.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
