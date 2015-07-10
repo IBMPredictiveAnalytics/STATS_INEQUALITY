@@ -1,0 +1,113 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_INEQUALITY.R:76
+msgid "Inequality Measures"
+msgstr ""
+"Misure di disuguaglianza"
+
+#: STATS_INEQUALITY.R:77
+msgid "Inequality Measures: Warnings"
+msgstr ""
+"Misure di disuguaglianza: Avvisi"
+
+#: STATS_INEQUALITY.R:83
+#: STATS_INEQUALITY.R:87
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Il package R %s è necessario, ma non è stato possibile caricarlo."
+
+#: STATS_INEQUALITY.R:91
+msgid "The Theil measure requires a prediction variable"
+msgstr ""
+"La misura Theil richiede una variabile di previsione"
+
+#: STATS_INEQUALITY.R:136
+msgid "Lorenz Curve of Variable %s"
+msgstr ""
+"Curva di Lorenz della variabile %s"
+
+#: STATS_INEQUALITY.R:149
+#: STATS_INEQUALITY.R:151
+msgid "Gini"
+msgstr ""
+"Gini"
+
+#: STATS_INEQUALITY.R:150
+msgid "Lower %s%% CI"
+msgstr ""
+"IC %s%% inferiore"
+
+#: STATS_INEQUALITY.R:150
+msgid "Upper %s%% CI"
+msgstr ""
+"IC %s%% superiore"
+
+#: STATS_INEQUALITY.R:152
+msgid "Atkinson(%s)"
+msgstr ""
+"Atkinson(%s)"
+
+#: STATS_INEQUALITY.R:153
+msgid "Theil U (%s)"
+msgstr ""
+"U di Theil (%s)"
+
+#: STATS_INEQUALITY.R:154
+msgid "Kolm"
+msgstr ""
+"Kolm"
+
+#: STATS_INEQUALITY.R:155
+msgid "Coef. of Variation"
+msgstr ""
+"Coefficiente di variazione"
+
+#: STATS_INEQUALITY.R:156
+msgid "Squared Coef. of Variation"
+msgstr ""
+"Coefficiente quadrato di variazione"
+
+#: STATS_INEQUALITY.R:157
+msgid "Entropy"
+msgstr ""
+"Entropia"
+
+#: STATS_INEQUALITY.R:183
+msgid "Inequality Measures for Variable %s"
+msgstr ""
+"Misure di disuguaglianza per variabile %s"
+
+#: STATS_INEQUALITY.R:188
+msgid "Results computed by R\nDescTools or ineq package"
+msgstr ""
+"Risultati calcolati dal package\nDescTools o ineq di R"
+
+#: STATS_INEQUALITY.R:220
+msgid "End of procedure"
+msgstr ""
+"Fine della procedura"
+
+#: STATS_INEQUALITY.R:247
+msgid "Message Number"
+msgstr ""
+"Numero messaggio"
+
+
