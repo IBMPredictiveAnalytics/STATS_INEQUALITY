@@ -1,0 +1,113 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_INEQUALITY.R:76
+msgid "Inequality Measures"
+msgstr ""
+"不平等测量"
+
+#: STATS_INEQUALITY.R:77
+msgid "Inequality Measures: Warnings"
+msgstr ""
+"不平等测量：警告"
+
+#: STATS_INEQUALITY.R:83
+#: STATS_INEQUALITY.R:87
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"需要 R %s 程序包，但未能将其装入。"
+
+#: STATS_INEQUALITY.R:91
+msgid "The Theil measure requires a prediction variable"
+msgstr ""
+"Theil 测量需要预测变量"
+
+#: STATS_INEQUALITY.R:136
+msgid "Lorenz Curve of Variable %s"
+msgstr ""
+"变量 %s 的劳伦茨曲线"
+
+#: STATS_INEQUALITY.R:149
+#: STATS_INEQUALITY.R:151
+msgid "Gini"
+msgstr ""
+"基尼"
+
+#: STATS_INEQUALITY.R:150
+msgid "Lower %s%% CI"
+msgstr ""
+"%s%% CI 下限"
+
+#: STATS_INEQUALITY.R:150
+msgid "Upper %s%% CI"
+msgstr ""
+"%s%% CI 上限"
+
+#: STATS_INEQUALITY.R:152
+msgid "Atkinson(%s)"
+msgstr ""
+"阿特金森(%s)"
+
+#: STATS_INEQUALITY.R:153
+msgid "Theil U (%s)"
+msgstr ""
+"Theil U (%s)"
+
+#: STATS_INEQUALITY.R:154
+msgid "Kolm"
+msgstr ""
+"Kolm"
+
+#: STATS_INEQUALITY.R:155
+msgid "Coef. of Variation"
+msgstr ""
+"差异系数"
+
+#: STATS_INEQUALITY.R:156
+msgid "Squared Coef. of Variation"
+msgstr ""
+"差异平方系数"
+
+#: STATS_INEQUALITY.R:157
+msgid "Entropy"
+msgstr ""
+"熵"
+
+#: STATS_INEQUALITY.R:183
+msgid "Inequality Measures for Variable %s"
+msgstr ""
+"变量 %s 的不平等测量"
+
+#: STATS_INEQUALITY.R:188
+msgid "Results computed by R\nDescTools or ineq package"
+msgstr ""
+"由 \nDescTools 或 ineq 程序包计算的结果"
+
+#: STATS_INEQUALITY.R:220
+msgid "End of procedure"
+msgstr ""
+"过程结束"
+
+#: STATS_INEQUALITY.R:247
+msgid "Message Number"
+msgstr ""
+"消息号"
+
+
