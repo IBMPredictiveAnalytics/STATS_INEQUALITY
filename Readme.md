@@ -1,11 +1,11 @@
 # STATS INEQUALITY
 ## Various inequality measures for a variable distribution
- This command computes up to seven inequality measures, in
+ This command computes up to seven inequality measures, including the Gini coefficient, for a variable.  Confidence intervals are available for Gini coefficients.  Split files are supported, making group comparisons easy.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
