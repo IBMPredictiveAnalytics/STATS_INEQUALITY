@@ -9,7 +9,7 @@ Description: This command computes up to seven inequality measures, in
  re available for Gini coefficients.  Split files are supported, makin
  g group comparisons easy.
 Author: JKP, IBM SPSS
-Version: 1.0.6
+Version: 1.0.7
 Product-Version: 18
 Date: 4/23/14
 Categories: statistics, Gini, distribution
