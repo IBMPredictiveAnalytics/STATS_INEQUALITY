@@ -1,4 +1,5 @@
 Name: STATS INEQUALITY
+Display-Name: Inequality Measures
 Dialog-Specs: STATS_INEQUALITY.spd
 Command-Specs: STATS_INEQUALITY.xml
 Code-Files: STATS_INEQUALITY.R
@@ -9,7 +10,7 @@ Description: This command computes up to seven inequality measures, in
  re available for Gini coefficients.  Split files are supported, makin
  g group comparisons easy.
 Author: JKP, IBM SPSS
-Version: 1.0.7
+Version: 1.0.6
 Product-Version: 18
 Date: 4/23/14
 Categories: statistics, Gini, distribution
